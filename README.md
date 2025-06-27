@@ -19,15 +19,3 @@ Kami melakukan tiga kali percobaan dengan kombinasi preprocessing yang berbeda. 
 
 ---
 
-# Import Library
-
-```python
-import os, cv2, numpy as np, pandas as pd, matplotlib.pyplot as plt, seaborn as sns
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler
-from skimage.feature import graycomatrix, graycoprops
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.svm import SVC
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
-from scipy.stats import entropy
